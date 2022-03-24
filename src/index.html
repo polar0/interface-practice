@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interface Practice</title>
+  </head>
+  <body>
+    <div id="blur-container"></div>
+    <div id="container">
+      <div class="header">
+        <div class="icon"><span class="fa-solid fa-home"></span></div>
+        <div class="title">Home</div>
+        <button class="search"><span class="fa-solid fa-search"></span></button>
+        <button class="login">Login / Sign Up</button>
+      </div>
+      <div class="content">
+        <div class="title">Carousel</div>
+        <div class="carousel">
+          <img
+            src="./assets/images/carousel/1-colored-shapes.svg"
+            alt="Colored shapes"
+          />
+          <img
+            src="./assets/images/carousel/2-colored-shapes.svg"
+            alt="Colored shapes"
+          />
+          <img
+            src="./assets/images/carousel/3-colored-shapes.svg"
+            alt="Colored shapes"
+          />
+          <img
+            src="./assets/images/carousel/4-colored-shapes.svg"
+            alt="Colored shapes"
+          />
+          <img
+            src="./assets/images/carousel/5-colored-shapes.svg"
+            alt="Colored shapes"
+          />
+          <button class="controls next">
+            <span class="fa-solid fa-arrow-right"></span>
+          </button>
+          <button class="controls previous">
+            <span class="fa-solid fa-arrow-left"></span>
+          </button>
+          <div class="progress-bar">
+            <div class="timer"></div>
+          </div>
+        </div>
+        <div class="slider">
+          <button value="0"></button>
+          <button value="1"></button>
+          <button value="2"></button>
+          <button value="3"></button>
+          <button value="4"></button>
+        </div>
+      </div>
+
+      <div class="menu">
+        <div class="nav">
+          <button class="menu-item target" value="Home">
+            <span class="fa-solid fa-home"></span>
+          </button>
+          <button class="menu-item" value="Trending">
+            <span class="fa-solid fa-compass"></span>
+          </button>
+          <button class="menu-item" value="New">
+            <span class="fa-solid fa-plus"></span>
+          </button>
+          <button class="menu-item" value="Messages">
+            <span class="fa-solid fa-envelope"></span>
+          </button>
+          <button class="expand">
+            <span class="fa-solid fa-ellipsis"></span>
+          </button>
+          <div id="indicator"></div>
+        </div>
+        <div class="menu-wrapper">
+          <div class="nav-alt">
+            <button class="menu-item" value="Settings">
+              <span class="fa-solid fa-gear"></span>
+            </button>
+            <button class="menu-item" value="Privacy">
+              <span class="fa-solid fa-shield"></span>
+            </button>
+            <button class="menu-item" value="My Account">
+              <span class="fa-solid fa-user"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
