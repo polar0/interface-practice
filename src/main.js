@@ -81,8 +81,6 @@ const navAlt = document.querySelector('div.nav-alt');
   const carousel = document.querySelector('.carousel');
   const images = carousel.querySelectorAll('img');
   const arrowControls = carousel.querySelectorAll('.controls');
-  // const nextImg = carousel.querySelector('.controls.next');
-  // const previousImg = carousel.querySelector('.controls.previous');
   const quickControls = document.querySelectorAll('.slider button');
   const progressBar = document.querySelector('.progress-bar .timer');
 
@@ -99,7 +97,6 @@ const navAlt = document.querySelector('div.nav-alt');
   let count = 0;
   let imgTimer = window.setInterval(setImageFromTimer, 5000);
   let progressBarTimer;
-  //   let progressStatus = 0;
   setActiveImage(count);
 
   // Change the image every 5 seconds
